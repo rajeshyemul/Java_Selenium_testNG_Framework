@@ -33,10 +33,9 @@ public final class PropertyUtils {
 			// java 8 way to handle the above loop
 			// property.entrySet().forEach(entry->CONFIGMAP.put(String.valueOf(entry.getKey()), String.valueOf(entry.getValue())));
 			
-		} catch (FileNotFoundException fnfe) {
-			fnfe.printStackTrace();
 		} catch (IOException e) {
 			e.printStackTrace();
+			System.exit(0);
 		}
 	}
 	

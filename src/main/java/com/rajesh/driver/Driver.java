@@ -11,6 +11,8 @@ import com.rajesh.constants.FrameworkConstants;
 import com.rajesh.enums.ConfigProperties;
 import com.rajesh.utils.PropertyUtils;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
+
 public final class Driver {
 
 	private Driver() {
@@ -22,11 +24,11 @@ public final class Driver {
 		if (Objects.isNull(DriverManager.getDriver())) {
 			
 			if(browser.equalsIgnoreCase("chrome")) {
-				System.setProperty("webdriver.chrome.driver", FrameworkConstants.getChromedriverpath());
+				WebDriverManager.chromedriver().setup();
 				driver = new ChromeDriver();
 			}
 			else if(browser.equalsIgnoreCase("firefox")) {
-				System.setProperty("webdriver.chrome.driver", FrameworkConstants.getGhecoDriverPath());
+				WebDriverManager.firefoxdriver().setup();
 				driver = new FirefoxDriver();
 			}
 			else if(browser.equalsIgnoreCase("ie")) {
