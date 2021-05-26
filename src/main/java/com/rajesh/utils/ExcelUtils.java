@@ -33,10 +33,16 @@ public final class ExcelUtils {
 			
 			XSSFSheet sheet = workbook.getSheet(sheetName);
 			
+			System.out.println(sheetName);
+			
 			list = new ArrayList<Map<String, String>>();
 			Map <String,String> map = null;
 			int lastRowNum = sheet.getPhysicalNumberOfRows();
 			int lastColNum = sheet.getRow(0).getLastCellNum();
+			
+			System.out.println(lastRowNum);
+			System.out.println(lastColNum);
+			
 			
 			for(int i=1; i<lastRowNum; i++) {
 				map = new HashMap<String,String>();
@@ -47,6 +53,7 @@ public final class ExcelUtils {
 				}
 				list.add(map);
 			}
+			System.out.println(list);
 		}
 		catch (FileNotFoundException e) {
 			/*

@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="1" ignored="0" total="3" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="37233" started-at="2021-05-25T10:35:09 IST" finished-at="2021-05-25T10:35:46 IST">
+  <suite name="Suite" duration-ms="45438" started-at="2021-05-26T14:45:51 IST" finished-at="2021-05-26T14:46:37 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="37233" started-at="2021-05-25T10:35:09 IST" finished-at="2021-05-25T10:35:46 IST">
+    <test name="Test" duration-ms="45438" started-at="2021-05-26T14:45:51 IST" finished-at="2021-05-26T14:46:37 IST">
       <class name="com.rajesh.tests.OrangeHRMTests">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.rajesh.tests.OrangeHRMTests@76707e36]" name="setUp" is-config="true" duration-ms="5004" started-at="2021-05-25T10:35:10 IST" finished-at="2021-05-25T10:35:15 IST">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.rajesh.tests.OrangeHRMTests@48503868]" name="setUp" is-config="true" duration-ms="6609" started-at="2021-05-26T14:45:52 IST" finished-at="2021-05-26T14:45:59 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="loginLogoutTest(java.util.Map)[pri:0, instance:com.rajesh.tests.OrangeHRMTests@76707e36]" name="loginLogoutTest" duration-ms="5332" started-at="2021-05-25T10:35:15 IST" finished-at="2021-05-25T10:35:20 IST">
+        <test-method status="PASS" signature="loginLogoutTest(java.util.Map)[pri:0, instance:com.rajesh.tests.OrangeHRMTests@48503868]" name="loginLogoutTest" duration-ms="7993" started-at="2021-05-26T14:45:59 IST" finished-at="2021-05-26T14:46:07 IST">
           <params>
             <param index="0">
               <value>
@@ -22,15 +22,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginLogoutTest -->
-        <test-method status="PASS" signature="teadDown()[pri:0, instance:com.rajesh.tests.OrangeHRMTests@76707e36]" name="teadDown" is-config="true" duration-ms="107" started-at="2021-05-25T10:35:20 IST" finished-at="2021-05-25T10:35:20 IST">
+        <test-method status="PASS" signature="teadDown()[pri:0, instance:com.rajesh.tests.OrangeHRMTests@48503868]" name="teadDown" is-config="true" duration-ms="114" started-at="2021-05-26T14:46:07 IST" finished-at="2021-05-26T14:46:07 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teadDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.rajesh.tests.OrangeHRMTests@76707e36]" name="setUp" is-config="true" duration-ms="4663" started-at="2021-05-25T10:35:20 IST" finished-at="2021-05-25T10:35:25 IST">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.rajesh.tests.OrangeHRMTests@48503868]" name="setUp" is-config="true" duration-ms="5290" started-at="2021-05-26T14:46:07 IST" finished-at="2021-05-26T14:46:12 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="loginLogoutTest(java.util.Map)[pri:0, instance:com.rajesh.tests.OrangeHRMTests@76707e36]" name="loginLogoutTest" duration-ms="5257" started-at="2021-05-25T10:35:25 IST" finished-at="2021-05-25T10:35:30 IST">
+        <test-method status="PASS" signature="loginLogoutTest(java.util.Map)[pri:0, instance:com.rajesh.tests.OrangeHRMTests@48503868]" name="loginLogoutTest" duration-ms="5621" started-at="2021-05-26T14:46:12 IST" finished-at="2021-05-26T14:46:18 IST">
           <params>
             <param index="0">
               <value>
@@ -41,15 +41,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginLogoutTest -->
-        <test-method status="PASS" signature="teadDown()[pri:0, instance:com.rajesh.tests.OrangeHRMTests@76707e36]" name="teadDown" is-config="true" duration-ms="107" started-at="2021-05-25T10:35:30 IST" finished-at="2021-05-25T10:35:30 IST">
+        <test-method status="PASS" signature="teadDown()[pri:0, instance:com.rajesh.tests.OrangeHRMTests@48503868]" name="teadDown" is-config="true" duration-ms="112" started-at="2021-05-26T14:46:18 IST" finished-at="2021-05-26T14:46:18 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teadDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.rajesh.tests.OrangeHRMTests@76707e36]" name="setUp" is-config="true" duration-ms="4270" started-at="2021-05-25T10:35:30 IST" finished-at="2021-05-25T10:35:34 IST">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.rajesh.tests.OrangeHRMTests@48503868]" name="setUp" is-config="true" duration-ms="5800" started-at="2021-05-26T14:46:18 IST" finished-at="2021-05-26T14:46:24 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="loginLogoutTest(java.util.Map)[pri:0, instance:com.rajesh.tests.OrangeHRMTests@76707e36]" name="loginLogoutTest" duration-ms="11432" started-at="2021-05-25T10:35:34 IST" finished-at="2021-05-25T10:35:46 IST">
+        <test-method status="FAIL" signature="loginLogoutTest(java.util.Map)[pri:0, instance:com.rajesh.tests.OrangeHRMTests@48503868]" name="loginLogoutTest" duration-ms="12776" started-at="2021-05-26T14:46:24 IST" finished-at="2021-05-26T14:46:36 IST">
           <params>
             <param index="0">
               <value>
@@ -90,10 +90,10 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'IN-IT1004.local', ip: '192.168.1.2', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_171'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: /var/folders/bb/hqlksys974q...}, goog:chromeOptions: {debuggerAddress: localhost:59242}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 77b522984e40295bd57231174800c4e8
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: /var/folders/bb/hqlksys974q...}, goog:chromeOptions: {debuggerAddress: localhost:61620}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 96aec4534dbc80eeb3b3ae8c683737fd
 *** Element info: {Using=id, value=welcome}
-at sun.reflect.GeneratedConstructorAccessor29.newInstance(Unknown Source)
+at sun.reflect.GeneratedConstructorAccessor22.newInstance(Unknown Source)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
 at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
@@ -118,7 +118,7 @@ at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginLogoutTest -->
-        <test-method status="PASS" signature="teadDown()[pri:0, instance:com.rajesh.tests.OrangeHRMTests@76707e36]" name="teadDown" is-config="true" duration-ms="107" started-at="2021-05-25T10:35:46 IST" finished-at="2021-05-25T10:35:46 IST">
+        <test-method status="PASS" signature="teadDown()[pri:0, instance:com.rajesh.tests.OrangeHRMTests@48503868]" name="teadDown" is-config="true" duration-ms="105" started-at="2021-05-26T14:46:37 IST" finished-at="2021-05-26T14:46:37 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teadDown -->
